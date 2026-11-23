@@ -16,6 +16,13 @@ Suggested repository: `interface-formulas` (public).
    ```
 
 3. Open https://github.com/biomathcode/interface-formulas/settings/pages and select **GitHub Actions** as the build and deployment source.
+# Deploy Interface Formulas
+
+GitHub Pages publishes this static site from the root of the main branch. No build step is required.
+
+In Settings → Pages, choose Deploy from a branch, select main and / (root), then save. GitHub republishes the site when changes are pushed to main.
+
+Preview: https://biomathcode.github.io/interface-formulas/
 4. Open the repository's Actions tab and inspect the "Deploy static site to GitHub Pages" workflow. If the initial run failed before Pages was configured, use **Run workflow** to deploy.
 5. Expected URL once GitHub reports a successful deployment: https://biomathcode.github.io/interface-formulas/
 
